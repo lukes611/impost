@@ -21,4 +21,22 @@ app.get('/', (rq, rs) => {
 `);
 });
 
+
+app.get('/sv', (rq, rs) => {
+	rs.send(`
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta property="og:image" content="/ducky.svg" />
+		<meta property="og:image:width" content="600"/>
+		<meta property="og:image:height" content="600"/>
+	</head>
+	<body>
+		<img src="/ducky.svg"
+	</body>
+</html>	
+`);
+});
+
+
 app.listen(80);
