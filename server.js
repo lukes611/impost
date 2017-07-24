@@ -27,12 +27,13 @@ app.get('/sv', (rq, rs) => {
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta property="og:image" content="/ducky.svg" />
+		<meta property="og:image" content="/ducky-2.jpg" />
 		<meta property="og:image:width" content="600"/>
 		<meta property="og:image:height" content="600"/>
 	</head>
 	<body>
-		<img src="/ducky.svg"
+		<img src="/ducky.svg" />
+		<img src="/ducky-2.jpg" />
 	</body>
 </html>	
 `);
